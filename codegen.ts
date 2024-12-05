@@ -3,9 +3,9 @@ import type { CodegenConfig } from '@graphql-codegen/cli'
 const config: CodegenConfig = {
   schema: [
     {
-      'http://localhost:8080/v1/graphql': {
+      'https://cafe-management-hasura.onrender.com/v1/graphql': {
         headers: {
-          'x-hasura-admin-secret': 'myadminsecretkey',
+          'x-hasura-admin-secret': '@Wifimango01',
         },
       },
     },

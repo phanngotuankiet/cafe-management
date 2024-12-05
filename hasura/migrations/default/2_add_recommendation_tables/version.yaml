@@ -1,0 +1,5 @@
+echo "version: 2
+name: add_recommendation_tables
+source: sql
+up: up.sql
+down: down.sql" > hasura/migrations/default/2_add_recommendation_tables/version.yaml
